@@ -1,0 +1,4 @@
+{"ok": 1.0, "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1678740006, "i": 7}}, "signature": {"hash": {"$binary": {"base64": "KpNfqm/Y4JC2yCXkM2uwiQfsi1I=", "subType": "00"}}, "keyId": 7210131139334242328}}, "operationTime": {"$timestamp": {"t": 1678740006, "i": 5}}}
+{"ok": 1.0, "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1678740006, "i": 7}}, "signature": {"hash": {"$binary": {"base64": "KpNfqm/Y4JC2yCXkM2uwiQfsi1I=", "subType": "00"}}, "keyId": 7210131139334242328}}, "operationTime": {"$timestamp": {"t": 1678740006, "i": 5}}}
+{"shardCollection": "ycsb.usertable", "key": {"_id": "hashed"}}
+{"collectionsharded": "ycsb.usertable", "ok": 1.0, "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1678740007, "i": 31}}, "signature": {"hash": {"$binary": {"base64": "+1Io9xsIDHiyTYE3OwuzW9Aw1gw=", "subType": "00"}}, "keyId": 7210131139334242328}}, "operationTime": {"$timestamp": {"t": 1678740007, "i": 27}}}

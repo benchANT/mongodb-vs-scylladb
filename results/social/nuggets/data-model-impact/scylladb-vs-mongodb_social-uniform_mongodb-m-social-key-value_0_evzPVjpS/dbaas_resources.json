@@ -1,0 +1,121 @@
+{
+    "attempts": 22,
+    "changed": false,
+    "connection": "close",
+    "content_length": "4124",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 13 Mar 2023 20:34:53 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "autoIndexingEnabled": false,
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "SHARDED",
+        "connectionStrings": {
+            "privateEndpoint": [],
+            "standard": "mongodb://mongodb-m-social-kv-shard-00-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-02.jnve7.mongodb.net:27016/?ssl=true&authSource=admin",
+            "standardSrv": "mongodb+srv://mongodb-m-social-kv.jnve7.mongodb.net"
+        },
+        "createDate": "2023-03-13T20:23:47Z",
+        "diskSizeGB": 1600.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "640f864f70b91f23cec13a49",
+        "id": "640f865361a24d653c45984a",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/640f864f70b91f23cec13a49/clusters/mongodb-m-social-kv",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/640f864f70b91f23cec13a49/clusters/mongodb-m-social-kv/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/640f864f70b91f23cec13a49/clusters/mongodb-m-social-kv/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.5",
+        "mongoURI": "mongodb://mongodb-m-social-kv-shard-00-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-02.jnve7.mongodb.net:27016",
+        "mongoURIUpdated": "2023-03-13T20:34:35Z",
+        "mongoURIWithOptions": "mongodb://mongodb-m-social-kv-shard-00-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-00-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-01-02.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-00.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-01.jnve7.mongodb.net:27016,mongodb-m-social-kv-shard-02-02.jnve7.mongodb.net:27016/?ssl=true&authSource=admin",
+        "name": "mongodb-m-social-kv",
+        "numShards": 3,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 1185000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M80_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_1",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_1": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "640f865361a24d653c459841",
+                "numShards": 3,
+                "regionsConfig": {
+                    "US_WEST_1": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-m-social-kv.jnve7.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (4124 bytes)",
+    "projectId": "640f864f70b91f23cec13a49",
+    "projectName": "scylladb-vs-mongodb-2942295c",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/640f864f70b91f23cec13a49/clusters/mongodb-m-social-kv?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_envoy_upstream_service_time": "30",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=ef81746dd77a49f5a204bf737073e1c17d9bb77c; versionString=v20230301",
+    "x_permitted_cross_domain_policies": "none"
+}
