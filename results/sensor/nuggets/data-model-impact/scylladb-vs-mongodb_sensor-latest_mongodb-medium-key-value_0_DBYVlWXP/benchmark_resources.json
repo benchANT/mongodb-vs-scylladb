@@ -1,0 +1,326 @@
+{
+    "changed": true,
+    "msg": "All items completed",
+    "results": [
+        {
+            "ansible_loop_var": "item",
+            "changed": true,
+            "failed": false,
+            "instance_ids": [
+                "i-0c72a33d34c8811ee"
+            ],
+            "instances": [
+                {
+                    "ami_launch_index": 0,
+                    "architecture": "x86_64",
+                    "block_device_mappings": [
+                        {
+                            "device_name": "/dev/sda1",
+                            "ebs": {
+                                "attach_time": "2023-03-13T21:34:10+00:00",
+                                "delete_on_termination": true,
+                                "status": "attached",
+                                "volume_id": "vol-02e1734d40c10947a"
+                            }
+                        }
+                    ],
+                    "capacity_reservation_specification": {
+                        "capacity_reservation_preference": "open"
+                    },
+                    "client_token": "af3572d06efe49fa95ef3df379a9015e",
+                    "cpu_options": {
+                        "core_count": 8,
+                        "threads_per_core": 2
+                    },
+                    "current_instance_boot_mode": "legacy-bios",
+                    "ebs_optimized": false,
+                    "ena_support": true,
+                    "enclave_options": {
+                        "enabled": false
+                    },
+                    "hibernation_options": {
+                        "configured": false
+                    },
+                    "hypervisor": "xen",
+                    "image_id": "ami-0c89304edf57df92a",
+                    "instance_id": "i-0c72a33d34c8811ee",
+                    "instance_type": "c5.4xlarge",
+                    "key_name": "baas_dev",
+                    "launch_time": "2023-03-13T21:34:09+00:00",
+                    "maintenance_options": {
+                        "auto_recovery": "default"
+                    },
+                    "metadata_options": {
+                        "http_endpoint": "enabled",
+                        "http_protocol_ipv6": "disabled",
+                        "http_put_response_hop_limit": 1,
+                        "http_tokens": "optional",
+                        "instance_metadata_tags": "disabled",
+                        "state": "applied"
+                    },
+                    "monitoring": {
+                        "state": "disabled"
+                    },
+                    "network_interfaces": [
+                        {
+                            "association": {
+                                "ip_owner_id": "amazon",
+                                "public_dns_name": "ec2-54-183-237-167.us-west-1.compute.amazonaws.com",
+                                "public_ip": "54.183.237.167"
+                            },
+                            "attachment": {
+                                "attach_time": "2023-03-13T21:34:09+00:00",
+                                "attachment_id": "eni-attach-0093c795b52f672bd",
+                                "delete_on_termination": true,
+                                "device_index": 0,
+                                "network_card_index": 0,
+                                "status": "attached"
+                            },
+                            "description": "",
+                            "groups": [
+                                {
+                                    "group_id": "sg-093c25fa2f521bc67",
+                                    "group_name": "baas-ssh"
+                                },
+                                {
+                                    "group_id": "sg-0d42ce8f762509cde",
+                                    "group_name": "baas-benchmark-api"
+                                },
+                                {
+                                    "group_id": "sg-1b92d063",
+                                    "group_name": "default"
+                                }
+                            ],
+                            "interface_type": "interface",
+                            "ipv6_addresses": [],
+                            "mac_address": "02:65:99:9c:4e:cd",
+                            "network_interface_id": "eni-0d1ba5d315e434d56",
+                            "owner_id": "584241909684",
+                            "private_dns_name": "ip-172-31-27-117.us-west-1.compute.internal",
+                            "private_ip_address": "172.31.27.117",
+                            "private_ip_addresses": [
+                                {
+                                    "association": {
+                                        "ip_owner_id": "amazon",
+                                        "public_dns_name": "ec2-54-183-237-167.us-west-1.compute.amazonaws.com",
+                                        "public_ip": "54.183.237.167"
+                                    },
+                                    "primary": true,
+                                    "private_dns_name": "ip-172-31-27-117.us-west-1.compute.internal",
+                                    "private_ip_address": "172.31.27.117"
+                                }
+                            ],
+                            "source_dest_check": true,
+                            "status": "in-use",
+                            "subnet_id": "subnet-b7e3edd0",
+                            "vpc_id": "vpc-14623073"
+                        }
+                    ],
+                    "placement": {
+                        "availability_zone": "us-west-1a",
+                        "group_name": "",
+                        "tenancy": "default"
+                    },
+                    "platform_details": "Linux/UNIX",
+                    "private_dns_name": "ip-172-31-27-117.us-west-1.compute.internal",
+                    "private_dns_name_options": {
+                        "enable_resource_name_dns_a_record": false,
+                        "enable_resource_name_dns_aaaa_record": false,
+                        "hostname_type": "ip-name"
+                    },
+                    "private_ip_address": "172.31.27.117",
+                    "product_codes": [],
+                    "public_dns_name": "ec2-54-183-237-167.us-west-1.compute.amazonaws.com",
+                    "public_ip_address": "54.183.237.167",
+                    "root_device_name": "/dev/sda1",
+                    "root_device_type": "ebs",
+                    "security_groups": [
+                        {
+                            "group_id": "sg-093c25fa2f521bc67",
+                            "group_name": "baas-ssh"
+                        },
+                        {
+                            "group_id": "sg-0d42ce8f762509cde",
+                            "group_name": "baas-benchmark-api"
+                        },
+                        {
+                            "group_id": "sg-1b92d063",
+                            "group_name": "default"
+                        }
+                    ],
+                    "source_dest_check": true,
+                    "state": {
+                        "code": 16,
+                        "name": "running"
+                    },
+                    "state_transition_reason": "",
+                    "subnet_id": "subnet-b7e3edd0",
+                    "tags": {
+                        "Name": "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8",
+                        "project": "scylladb-vs-mongodb",
+                        "service": "baas",
+                        "type": "dbms"
+                    },
+                    "usage_operation": "RunInstances",
+                    "usage_operation_update_time": "2023-03-13T21:34:09+00:00",
+                    "virtualization_type": "hvm",
+                    "vpc_id": "vpc-14623073"
+                }
+            ],
+            "invocation": {
+                "module_args": {
+                    "aap_callback": null,
+                    "access_key": null,
+                    "availability_zone": null,
+                    "aws_ca_bundle": null,
+                    "aws_config": null,
+                    "count": null,
+                    "cpu_credit_specification": null,
+                    "cpu_options": null,
+                    "debug_botocore_endpoint_logs": false,
+                    "detailed_monitoring": null,
+                    "ebs_optimized": null,
+                    "endpoint_url": null,
+                    "exact_count": null,
+                    "filters": {
+                        "image-id": [
+                            "ami-0c89304edf57df92a"
+                        ],
+                        "instance-state-name": [
+                            "pending",
+                            "running",
+                            "stopping",
+                            "stopped"
+                        ],
+                        "tag:Name": [
+                            "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8"
+                        ]
+                    },
+                    "hibernation_options": false,
+                    "iam_instance_profile": null,
+                    "image": null,
+                    "image_id": "ami-0c89304edf57df92a",
+                    "instance_ids": [],
+                    "instance_initiated_shutdown_behavior": null,
+                    "instance_type": "c5.4xlarge",
+                    "key_name": "baas_dev",
+                    "launch_template": null,
+                    "metadata_options": null,
+                    "name": "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8",
+                    "network": {
+                        "assign_public_ip": true
+                    },
+                    "placement_group": null,
+                    "profile": null,
+                    "purge_tags": true,
+                    "region": "us-west-1",
+                    "secret_key": null,
+                    "security_group": null,
+                    "security_groups": [
+                        "default",
+                        "baas-ssh",
+                        "baas-benchmark-api"
+                    ],
+                    "session_token": null,
+                    "state": "started",
+                    "tags": {
+                        "Name": "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8",
+                        "project": "scylladb-vs-mongodb",
+                        "service": "baas",
+                        "type": "dbms"
+                    },
+                    "tenancy": null,
+                    "termination_protection": null,
+                    "user_data": null,
+                    "validate_certs": true,
+                    "volumes": [
+                        {
+                            "device_name": "/dev/sda1",
+                            "ebs": {
+                                "volume_size": 30,
+                                "volume_type": "gp2"
+                            }
+                        }
+                    ],
+                    "vpc_subnet_id": null,
+                    "wait": true,
+                    "wait_timeout": 600
+                }
+            },
+            "item": 0,
+            "spec": {
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/sda1",
+                        "Ebs": {
+                            "VolumeSize": 30,
+                            "VolumeType": "gp2"
+                        }
+                    }
+                ],
+                "ClientToken": "af3572d06efe49fa95ef3df379a9015e",
+                "ImageId": "ami-0c89304edf57df92a",
+                "InstanceType": "c5.4xlarge",
+                "KeyName": "baas_dev",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "NetworkInterfaces": [
+                    {
+                        "AssociatePublicIpAddress": true,
+                        "DeviceIndex": 0,
+                        "Groups": [
+                            "sg-093c25fa2f521bc67",
+                            "sg-0d42ce8f762509cde",
+                            "sg-1b92d063"
+                        ],
+                        "SubnetId": "subnet-b7e3edd0"
+                    }
+                ],
+                "TagSpecifications": [
+                    {
+                        "ResourceType": "volume",
+                        "Tags": [
+                            {
+                                "Key": "service",
+                                "Value": "baas"
+                            },
+                            {
+                                "Key": "type",
+                                "Value": "dbms"
+                            },
+                            {
+                                "Key": "project",
+                                "Value": "scylladb-vs-mongodb"
+                            },
+                            {
+                                "Key": "Name",
+                                "Value": "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8"
+                            }
+                        ]
+                    },
+                    {
+                        "ResourceType": "instance",
+                        "Tags": [
+                            {
+                                "Key": "service",
+                                "Value": "baas"
+                            },
+                            {
+                                "Key": "type",
+                                "Value": "dbms"
+                            },
+                            {
+                                "Key": "project",
+                                "Value": "scylladb-vs-mongodb"
+                            },
+                            {
+                                "Key": "Name",
+                                "Value": "BaaS-benchmark-0-f6fa9b04-dadc-513a-ac78-87159c211eb8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

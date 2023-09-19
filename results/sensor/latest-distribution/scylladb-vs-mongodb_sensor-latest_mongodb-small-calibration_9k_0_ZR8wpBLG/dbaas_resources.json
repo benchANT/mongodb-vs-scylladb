@@ -1,0 +1,118 @@
+{
+    "attempts": 17,
+    "changed": false,
+    "connection": "close",
+    "content_length": "3186",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 15 May 2023 10:44:48 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "REPLICASET",
+        "connectionStrings": {
+            "standard": "mongodb://mongodb-small-calibrati-shard-00-00.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-01.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-02.b43yu.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-wrxoai-shard-0",
+            "standardSrv": "mongodb+srv://mongodb-small-calibrati.b43yu.mongodb.net"
+        },
+        "createDate": "2023-05-15T10:36:21Z",
+        "diskSizeGB": 1600.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "64620b22bcc1c869625a975b",
+        "id": "64620b25eb6eb7421393dd9b",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64620b22bcc1c869625a975b/clusters/mongodb-small-calibration",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64620b22bcc1c869625a975b/clusters/mongodb-small-calibration/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64620b22bcc1c869625a975b/clusters/mongodb-small-calibration/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.5",
+        "mongoURI": "mongodb://mongodb-small-calibrati-shard-00-00.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-01.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-02.b43yu.mongodb.net:27017",
+        "mongoURIUpdated": "2023-05-15T10:44:29Z",
+        "mongoURIWithOptions": "mongodb://mongodb-small-calibrati-shard-00-00.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-01.b43yu.mongodb.net:27017,mongodb-small-calibrati-shard-00-02.b43yu.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-wrxoai-shard-0",
+        "name": "mongodb-small-calibration",
+        "numShards": 1,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 601500,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M60_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_2",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_2": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "64620b25eb6eb7421393dd91",
+                "numShards": 1,
+                "regionsConfig": {
+                    "US_WEST_2": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-small-calibrati.b43yu.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (3186 bytes)",
+    "projectId": "64620b22bcc1c869625a975b",
+    "projectName": "scylladb-vs-mongodb-653e1e90",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64620b22bcc1c869625a975b/clusters/mongodb-small-calibration?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=be35e670f7f9928e202389e5c29074ef1b712230; versionString=v20230503",
+    "x_permitted_cross_domain_policies": "none"
+}

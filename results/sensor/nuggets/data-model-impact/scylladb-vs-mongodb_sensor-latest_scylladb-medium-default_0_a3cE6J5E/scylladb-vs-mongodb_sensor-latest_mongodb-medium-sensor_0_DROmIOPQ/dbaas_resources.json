@@ -1,0 +1,121 @@
+{
+    "attempts": 22,
+    "changed": false,
+    "connection": "close",
+    "content_length": "4190",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 27 Feb 2023 15:29:41 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "autoIndexingEnabled": false,
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "SHARDED",
+        "connectionStrings": {
+            "privateEndpoint": [],
+            "standard": "mongodb://mongodb-medium-sensor-shard-00-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-02.yqr4t.mongodb.net:27016/?ssl=true&authSource=admin",
+            "standardSrv": "mongodb+srv://mongodb-medium-sensor.yqr4t.mongodb.net"
+        },
+        "createDate": "2023-02-27T15:18:38Z",
+        "diskSizeGB": 1600.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "63fcc9cb05fb1304caa7f1ed",
+        "id": "63fcc9cee9f59318753f45f0",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63fcc9cb05fb1304caa7f1ed/clusters/mongodb-medium-sensor",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63fcc9cb05fb1304caa7f1ed/clusters/mongodb-medium-sensor/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63fcc9cb05fb1304caa7f1ed/clusters/mongodb-medium-sensor/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.4",
+        "mongoURI": "mongodb://mongodb-medium-sensor-shard-00-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-02.yqr4t.mongodb.net:27016",
+        "mongoURIUpdated": "2023-02-27T15:29:25Z",
+        "mongoURIWithOptions": "mongodb://mongodb-medium-sensor-shard-00-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-00-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-01-02.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-00.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-01.yqr4t.mongodb.net:27016,mongodb-medium-sensor-shard-02-02.yqr4t.mongodb.net:27016/?ssl=true&authSource=admin",
+        "name": "mongodb-medium-sensor",
+        "numShards": 3,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 1185000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M80_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_1",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_1": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "63fcc9cee9f59318753f45e6",
+                "numShards": 3,
+                "regionsConfig": {
+                    "US_WEST_1": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-medium-sensor.yqr4t.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (4190 bytes)",
+    "projectId": "63fcc9cb05fb1304caa7f1ed",
+    "projectName": "scylladb-vs-mongodb-beb371d3",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63fcc9cb05fb1304caa7f1ed/clusters/mongodb-medium-sensor?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_envoy_upstream_service_time": "24",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=756ec7e35849497dc8b8d3075500656651c7384c; versionString=v20230215",
+    "x_permitted_cross_domain_policies": "none"
+}
