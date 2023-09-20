@@ -1,0 +1,120 @@
+{
+    "attempts": 22,
+    "changed": false,
+    "connection": "close",
+    "content_length": "4155",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 08 May 2023 07:41:39 GMT",
+    "elapsed": 1,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "SHARDED",
+        "connectionStrings": {
+            "privateEndpoint": [],
+            "standard": "mongodb://mongodb-m-calibration-shard-00-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-02.w3sa1.mongodb.net:27016/?ssl=true&authSource=admin",
+            "standardSrv": "mongodb+srv://mongodb-m-calibration.w3sa1.mongodb.net"
+        },
+        "createDate": "2023-05-08T07:30:35Z",
+        "diskSizeGB": 1600.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "6458a518810cb542af0d358d",
+        "id": "6458a51bfd790c5cd9e0d2af",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/6458a518810cb542af0d358d/clusters/mongodb-m-calibration",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/6458a518810cb542af0d358d/clusters/mongodb-m-calibration/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/6458a518810cb542af0d358d/clusters/mongodb-m-calibration/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.5",
+        "mongoURI": "mongodb://mongodb-m-calibration-shard-00-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-02.w3sa1.mongodb.net:27016",
+        "mongoURIUpdated": "2023-05-08T07:41:37Z",
+        "mongoURIWithOptions": "mongodb://mongodb-m-calibration-shard-00-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-00-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-01-02.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-00.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-01.w3sa1.mongodb.net:27016,mongodb-m-calibration-shard-02-02.w3sa1.mongodb.net:27016/?ssl=true&authSource=admin",
+        "name": "mongodb-m-calibration",
+        "numShards": 3,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 1185000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M80_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_2",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_2": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "6458a51bfd790c5cd9e0d2a6",
+                "numShards": 3,
+                "regionsConfig": {
+                    "US_WEST_2": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-m-calibration.w3sa1.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (4155 bytes)",
+    "projectId": "6458a518810cb542af0d358d",
+    "projectName": "scylladb-vs-mongodb-098d79f6",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/6458a518810cb542af0d358d/clusters/mongodb-m-calibration?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_envoy_upstream_service_time": "143",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=04c1bfec6729eff2901346f19f472d1bd60bf24c; versionString=v20230503",
+    "x_permitted_cross_domain_policies": "none"
+}

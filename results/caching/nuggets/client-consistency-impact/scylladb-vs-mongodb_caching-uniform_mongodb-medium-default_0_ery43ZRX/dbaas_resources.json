@@ -1,0 +1,121 @@
+{
+    "attempts": 22,
+    "changed": false,
+    "connection": "close",
+    "content_length": "4223",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Wed, 01 Mar 2023 21:16:40 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "autoIndexingEnabled": false,
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "SHARDED",
+        "connectionStrings": {
+            "privateEndpoint": [],
+            "standard": "mongodb://mongodb-medium-caching-shard-00-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-02.trzt6.mongodb.net:27016/?ssl=true&authSource=admin",
+            "standardSrv": "mongodb+srv://mongodb-medium-caching.trzt6.mongodb.net"
+        },
+        "createDate": "2023-03-01T21:05:37Z",
+        "diskSizeGB": 1600.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "63ffbe1d3b83c90442029238",
+        "id": "63ffbe21fe23ed0b31500fad",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63ffbe1d3b83c90442029238/clusters/mongodb-medium-caching",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63ffbe1d3b83c90442029238/clusters/mongodb-medium-caching/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63ffbe1d3b83c90442029238/clusters/mongodb-medium-caching/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.4",
+        "mongoURI": "mongodb://mongodb-medium-caching-shard-00-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-02.trzt6.mongodb.net:27016",
+        "mongoURIUpdated": "2023-03-01T21:16:28Z",
+        "mongoURIWithOptions": "mongodb://mongodb-medium-caching-shard-00-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-00-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-01-02.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-00.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-01.trzt6.mongodb.net:27016,mongodb-medium-caching-shard-02-02.trzt6.mongodb.net:27016/?ssl=true&authSource=admin",
+        "name": "mongodb-medium-caching",
+        "numShards": 3,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 1185000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M80_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_1",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_1": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "63ffbe20fe23ed0b31500fa4",
+                "numShards": 3,
+                "regionsConfig": {
+                    "US_WEST_1": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-medium-caching.trzt6.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (4223 bytes)",
+    "projectId": "63ffbe1d3b83c90442029238",
+    "projectName": "scylladb-vs-mongodb-f5bbfa1a",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63ffbe1d3b83c90442029238/clusters/mongodb-medium-caching?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_envoy_upstream_service_time": "32",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=67e59869cd6d6b329a2bad2ae88bb22afc3a3297; versionString=v20230301",
+    "x_permitted_cross_domain_policies": "none"
+}

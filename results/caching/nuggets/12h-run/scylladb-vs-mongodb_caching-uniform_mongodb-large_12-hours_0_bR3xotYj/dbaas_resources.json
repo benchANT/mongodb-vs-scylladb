@@ -1,0 +1,120 @@
+{
+    "attempts": 29,
+    "changed": false,
+    "connection": "close",
+    "content_length": "5273",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 29 May 2023 09:28:02 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "SHARDED",
+        "connectionStrings": {
+            "awsPrivateLinkSrv": {},
+            "privateEndpoint": [],
+            "standard": "mongodb://mongodb-large-shard-00-00.vtpis.mongodb.net:27016,mongodb-large-shard-00-01.vtpis.mongodb.net:27016,mongodb-large-shard-00-02.vtpis.mongodb.net:27016,mongodb-large-shard-01-00.vtpis.mongodb.net:27016,mongodb-large-shard-01-01.vtpis.mongodb.net:27016,mongodb-large-shard-01-02.vtpis.mongodb.net:27016,mongodb-large-shard-02-00.vtpis.mongodb.net:27016,mongodb-large-shard-02-01.vtpis.mongodb.net:27016,mongodb-large-shard-02-02.vtpis.mongodb.net:27016,mongodb-large-shard-03-00.vtpis.mongodb.net:27016,mongodb-large-shard-03-01.vtpis.mongodb.net:27016,mongodb-large-shard-03-02.vtpis.mongodb.net:27016,mongodb-large-shard-04-00.vtpis.mongodb.net:27016,mongodb-large-shard-04-01.vtpis.mongodb.net:27016,mongodb-large-shard-04-02.vtpis.mongodb.net:27016,mongodb-large-shard-05-00.vtpis.mongodb.net:27016,mongodb-large-shard-05-01.vtpis.mongodb.net:27016,mongodb-large-shard-05-02.vtpis.mongodb.net:27016/?ssl=true&authSource=admin",
+            "standardSrv": "mongodb+srv://mongodb-large.vtpis.mongodb.net"
+        },
+        "createDate": "2023-05-29T09:13:17Z",
+        "diskSizeGB": 3100.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "64746caaa5e97b6d0335359e",
+        "id": "64746cadc453bc2fd8008e55",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64746caaa5e97b6d0335359e/clusters/mongodb-large",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64746caaa5e97b6d0335359e/clusters/mongodb-large/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64746caaa5e97b6d0335359e/clusters/mongodb-large/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.6",
+        "mongoURI": "mongodb://mongodb-large-shard-00-00.vtpis.mongodb.net:27016,mongodb-large-shard-00-01.vtpis.mongodb.net:27016,mongodb-large-shard-00-02.vtpis.mongodb.net:27016,mongodb-large-shard-01-00.vtpis.mongodb.net:27016,mongodb-large-shard-01-01.vtpis.mongodb.net:27016,mongodb-large-shard-01-02.vtpis.mongodb.net:27016,mongodb-large-shard-02-00.vtpis.mongodb.net:27016,mongodb-large-shard-02-01.vtpis.mongodb.net:27016,mongodb-large-shard-02-02.vtpis.mongodb.net:27016,mongodb-large-shard-03-00.vtpis.mongodb.net:27016,mongodb-large-shard-03-01.vtpis.mongodb.net:27016,mongodb-large-shard-03-02.vtpis.mongodb.net:27016,mongodb-large-shard-04-00.vtpis.mongodb.net:27016,mongodb-large-shard-04-01.vtpis.mongodb.net:27016,mongodb-large-shard-04-02.vtpis.mongodb.net:27016,mongodb-large-shard-05-00.vtpis.mongodb.net:27016,mongodb-large-shard-05-01.vtpis.mongodb.net:27016,mongodb-large-shard-05-02.vtpis.mongodb.net:27016",
+        "mongoURIUpdated": "2023-05-29T09:27:58Z",
+        "mongoURIWithOptions": "mongodb://mongodb-large-shard-00-00.vtpis.mongodb.net:27016,mongodb-large-shard-00-01.vtpis.mongodb.net:27016,mongodb-large-shard-00-02.vtpis.mongodb.net:27016,mongodb-large-shard-01-00.vtpis.mongodb.net:27016,mongodb-large-shard-01-01.vtpis.mongodb.net:27016,mongodb-large-shard-01-02.vtpis.mongodb.net:27016,mongodb-large-shard-02-00.vtpis.mongodb.net:27016,mongodb-large-shard-02-01.vtpis.mongodb.net:27016,mongodb-large-shard-02-02.vtpis.mongodb.net:27016,mongodb-large-shard-03-00.vtpis.mongodb.net:27016,mongodb-large-shard-03-01.vtpis.mongodb.net:27016,mongodb-large-shard-03-02.vtpis.mongodb.net:27016,mongodb-large-shard-04-00.vtpis.mongodb.net:27016,mongodb-large-shard-04-01.vtpis.mongodb.net:27016,mongodb-large-shard-04-02.vtpis.mongodb.net:27016,mongodb-large-shard-05-00.vtpis.mongodb.net:27016,mongodb-large-shard-05-01.vtpis.mongodb.net:27016,mongodb-large-shard-05-02.vtpis.mongodb.net:27016/?ssl=true&authSource=admin",
+        "name": "mongodb-large",
+        "numShards": 6,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": true,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 2370000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M200_NVME",
+            "providerName": "AWS",
+            "regionName": "US_WEST_2",
+            "volumeType": "PROVISIONED"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_2": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "64746cadc453bc2fd8008e49",
+                "numShards": 6,
+                "regionsConfig": {
+                    "US_WEST_2": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://mongodb-large.vtpis.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (5273 bytes)",
+    "projectId": "64746caaa5e97b6d0335359e",
+    "projectName": "scylladb-vs-mongodb-17544b04",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "mdbws",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/64746caaa5e97b6d0335359e/clusters/mongodb-large?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=e62a6b96c8633100515569b64f45cb6d06444149; versionString=v20230524",
+    "x_permitted_cross_domain_policies": "none"
+}

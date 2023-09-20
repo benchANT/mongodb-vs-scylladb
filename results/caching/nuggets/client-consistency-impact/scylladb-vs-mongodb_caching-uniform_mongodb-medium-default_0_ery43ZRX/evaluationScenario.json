@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "scylladb-vs-mongodb",
+    "batchId": "caching-uniform",
+    "configurationId": "mongodb-medium-caching",
+    "configurationLabel": "mongodb-medium-caching",
+    "executions": 1,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "ATLAS",
+    "api": "ATLAS"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "MONGODB",
+    "operationType": "DBAAS",
+    "version": "6.0",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 19180.8
+      },
+      "mongodbAtlasInstance": {
+        "diskSize": 1600.0,
+        "numShards": 3,
+        "clusterType": "SHARDED",
+        "providerSettings": {
+          "providerName": "AWS",
+          "instanceSizeName": "M80_NVME",
+          "regionName": "US_WEST_1"
+        },
+        "mongodbClientConfiguration": {
+          "writeConcern": {
+            "w": "majority",
+            "j": true
+          },
+          "readPreference": "primary"
+        }
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "us-west-1",
+          "instanceType": "c5.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "20.04",
+          "volumeType": "GP2",
+          "volumeSize": 30,
+          "iops": 100
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "caching",
+    "distribution": "YCSB",
+    "version": "master",
+    "ycsb": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadType": "LOAD",
+        "workloadClass": "site.ycsb.workloads.CoreWorkload",
+        "maxExecutionTime": 1800,
+        "threadCount": 400,
+        "recordCount": 1000000000,
+        "insertStart": 0,
+        "insertCount": 0,
+        "operations": 999900000,
+        "targetOps": 0,
+        "fieldCount": 10,
+        "fieldLength": 100,
+        "readAllFileds": true,
+        "readModifyWriteProportion": 0,
+        "requestdistribution": "UNIFORM",
+        "scanLengthDistribution": "UNIFORM",
+        "insertOrder": "ORDERED",
+        "readProportion": 0.5,
+        "updateProportion": 0.5,
+        "insertProportion": 0.0,
+        "scanProportion": 0.0,
+        "maxScanLength": 1000,
+        "coreWorkloadInsertionRetryLimit": 0,
+        "coreWorkloadInsertionRetryInterval": 0,
+        "loadBatchSize": 100,
+        "runBatchSize": 1
+      }
+    }
+  }
+}

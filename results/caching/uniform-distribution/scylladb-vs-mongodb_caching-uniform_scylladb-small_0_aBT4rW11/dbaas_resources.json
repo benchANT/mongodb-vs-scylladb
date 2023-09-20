@@ -1,0 +1,346 @@
+{
+    "dbaas_result": {
+        "connection": {
+            "broadcastType": "PUBLIC",
+            "connectDataCenters": [
+                {
+                    "dcName": "AWS_US_WEST_2",
+                    "privateIPs": [
+                        "172.31.2.4",
+                        "172.31.1.40",
+                        "172.31.0.69"
+                    ],
+                    "publicIPs": [
+                        "52.27.21.157",
+                        "44.230.88.51",
+                        "54.185.181.164"
+                    ]
+                }
+            ],
+            "credentials": {
+                "password": "Z0tmi4DGW6kvjOF",
+                "username": "scylla"
+            }
+        },
+        "details": {
+            "cluster": {
+                "accountId": 14476,
+                "allowedIps": [],
+                "broadcastType": "PUBLIC",
+                "clientIp": "134.60.64.148",
+                "cloudProvider": {
+                    "id": 1,
+                    "name": "AWS",
+                    "rootAccountId": "696340704738"
+                },
+                "cloudProviderId": 1,
+                "clusterName": "benchant-d27f5819-fa50-56c3-9",
+                "createdAt": "2023-04-30T08:33:20Z",
+                "dataCenters": [
+                    {
+                        "accountCloudProviderCredentialsId": 3,
+                        "cidrBlock": "172.31.0.0/16",
+                        "cloudProvider": {
+                            "id": 1,
+                            "name": "AWS",
+                            "rootAccountId": "696340704738"
+                        },
+                        "cloudProviderId": 1,
+                        "clusterId": 14164,
+                        "id": 14106,
+                        "instanceId": 64,
+                        "name": "AWS_US_WEST_2",
+                        "region": {
+                            "backupStorageGBCost": "0.023",
+                            "cloudProviderId": 1,
+                            "continent": "America",
+                            "dcName": "AWS_US_WEST_2",
+                            "externalId": "us-west-2",
+                            "fullName": "US West (Oregon)",
+                            "id": 3,
+                            "name": "us-west-2",
+                            "trafficCrossRegionOutGBCost": "0.02",
+                            "trafficInternetOutGBCost": "0.09",
+                            "trafficSameRegionInGBCost": "0.01",
+                            "trafficSameRegionOutGBCost": "0.01"
+                        },
+                        "regionId": 3,
+                        "replicationFactor": 3,
+                        "status": "ACTIVE"
+                    }
+                ],
+                "dc": {
+                    "accountCloudProviderCredentialsId": 3,
+                    "cidrBlock": "172.31.0.0/16",
+                    "cloudProviderId": 1,
+                    "clusterId": 14164,
+                    "id": 14106,
+                    "instanceId": 64,
+                    "name": "AWS_US_WEST_2",
+                    "regionId": 3,
+                    "replicationFactor": 3,
+                    "status": "ACTIVE"
+                },
+                "dns": false,
+                "grafanaUrl": "https://graphs.cloud.scylladb.com/cluster/14164/monitor/d/overview-2022-2/scylla-overview-metrics",
+                "id": 14164,
+                "instance": {
+                    "cloudProviderId": 1,
+                    "costPerHour": "1.37093",
+                    "cpuCount": 8,
+                    "displayOrder": 49,
+                    "environment": "PRODUCTION",
+                    "externalId": "i4i.2xlarge",
+                    "externalStorageNetworkSpeed": 0,
+                    "freeTierHours": 0,
+                    "groupDefault": true,
+                    "id": 64,
+                    "instanceCostHourly": "0.686",
+                    "licenseCostOnDemandPerHour": "0.68493",
+                    "localDiskCount": 1,
+                    "memory": 65536,
+                    "networkSpeed": 12288,
+                    "subscriptionCostHourly": "1.3825",
+                    "totalStorage": 1875
+                },
+                "instanceId": 64,
+                "maxAllowedCIDRRange": 16,
+                "nodes": [
+                    {
+                        "billingStartDate": "2023-04-30T08:33:43Z",
+                        "cloudProvider": {
+                            "id": 1,
+                            "name": "AWS",
+                            "rootAccountId": "696340704738"
+                        },
+                        "cloudProviderId": 1,
+                        "clusterJoinDate": "2023-04-30T08:33:43Z",
+                        "dataCenter": {
+                            "accountCloudProviderCredentialsId": 3,
+                            "cidrBlock": "172.31.0.0/16",
+                            "cloudProviderId": 1,
+                            "clusterId": 14164,
+                            "id": 14106,
+                            "instanceId": 64,
+                            "name": "AWS_US_WEST_2",
+                            "regionId": 3,
+                            "replicationFactor": 3,
+                            "status": "ACTIVE"
+                        },
+                        "dcId": 14106,
+                        "id": 64737,
+                        "instance": {
+                            "cloudProviderId": 1,
+                            "costPerHour": "1.37093",
+                            "cpuCount": 8,
+                            "displayOrder": 49,
+                            "environment": "PRODUCTION",
+                            "externalId": "i4i.2xlarge",
+                            "externalStorageNetworkSpeed": 0,
+                            "freeTierHours": 0,
+                            "groupDefault": true,
+                            "id": 64,
+                            "instanceCostHourly": "0.686",
+                            "licenseCostOnDemandPerHour": "0.68493",
+                            "localDiskCount": 1,
+                            "memory": 65536,
+                            "networkSpeed": 12288,
+                            "subscriptionCostHourly": "1.3825",
+                            "totalStorage": 1875
+                        },
+                        "instanceId": 64,
+                        "privateIp": "172.31.2.4",
+                        "publicIp": "52.27.21.157",
+                        "region": {
+                            "backupStorageGBCost": "0.023",
+                            "cloudProviderId": 1,
+                            "continent": "America",
+                            "dcName": "AWS_US_WEST_2",
+                            "externalId": "us-west-2",
+                            "fullName": "US West (Oregon)",
+                            "id": 3,
+                            "name": "us-west-2",
+                            "trafficCrossRegionOutGBCost": "0.02",
+                            "trafficInternetOutGBCost": "0.09",
+                            "trafficSameRegionInGBCost": "0.01",
+                            "trafficSameRegionOutGBCost": "0.01"
+                        },
+                        "regionId": 3,
+                        "serviceId": 1,
+                        "serviceVersionId": 108,
+                        "state": "NORMAL",
+                        "status": "ACTIVE"
+                    },
+                    {
+                        "billingStartDate": "2023-04-30T08:33:43Z",
+                        "cloudProvider": {
+                            "id": 1,
+                            "name": "AWS",
+                            "rootAccountId": "696340704738"
+                        },
+                        "cloudProviderId": 1,
+                        "clusterJoinDate": "2023-04-30T08:33:43Z",
+                        "dataCenter": {
+                            "accountCloudProviderCredentialsId": 3,
+                            "cidrBlock": "172.31.0.0/16",
+                            "cloudProviderId": 1,
+                            "clusterId": 14164,
+                            "id": 14106,
+                            "instanceId": 64,
+                            "name": "AWS_US_WEST_2",
+                            "regionId": 3,
+                            "replicationFactor": 3,
+                            "status": "ACTIVE"
+                        },
+                        "dcId": 14106,
+                        "id": 64738,
+                        "instance": {
+                            "cloudProviderId": 1,
+                            "costPerHour": "1.37093",
+                            "cpuCount": 8,
+                            "displayOrder": 49,
+                            "environment": "PRODUCTION",
+                            "externalId": "i4i.2xlarge",
+                            "externalStorageNetworkSpeed": 0,
+                            "freeTierHours": 0,
+                            "groupDefault": true,
+                            "id": 64,
+                            "instanceCostHourly": "0.686",
+                            "licenseCostOnDemandPerHour": "0.68493",
+                            "localDiskCount": 1,
+                            "memory": 65536,
+                            "networkSpeed": 12288,
+                            "subscriptionCostHourly": "1.3825",
+                            "totalStorage": 1875
+                        },
+                        "instanceId": 64,
+                        "privateIp": "172.31.1.40",
+                        "publicIp": "44.230.88.51",
+                        "region": {
+                            "backupStorageGBCost": "0.023",
+                            "cloudProviderId": 1,
+                            "continent": "America",
+                            "dcName": "AWS_US_WEST_2",
+                            "externalId": "us-west-2",
+                            "fullName": "US West (Oregon)",
+                            "id": 3,
+                            "name": "us-west-2",
+                            "trafficCrossRegionOutGBCost": "0.02",
+                            "trafficInternetOutGBCost": "0.09",
+                            "trafficSameRegionInGBCost": "0.01",
+                            "trafficSameRegionOutGBCost": "0.01"
+                        },
+                        "regionId": 3,
+                        "serviceId": 1,
+                        "serviceVersionId": 108,
+                        "state": "NORMAL",
+                        "status": "ACTIVE"
+                    },
+                    {
+                        "billingStartDate": "2023-04-30T08:33:43Z",
+                        "cloudProvider": {
+                            "id": 1,
+                            "name": "AWS",
+                            "rootAccountId": "696340704738"
+                        },
+                        "cloudProviderId": 1,
+                        "clusterJoinDate": "2023-04-30T08:33:43Z",
+                        "dataCenter": {
+                            "accountCloudProviderCredentialsId": 3,
+                            "cidrBlock": "172.31.0.0/16",
+                            "cloudProviderId": 1,
+                            "clusterId": 14164,
+                            "id": 14106,
+                            "instanceId": 64,
+                            "name": "AWS_US_WEST_2",
+                            "regionId": 3,
+                            "replicationFactor": 3,
+                            "status": "ACTIVE"
+                        },
+                        "dcId": 14106,
+                        "id": 64739,
+                        "instance": {
+                            "cloudProviderId": 1,
+                            "costPerHour": "1.37093",
+                            "cpuCount": 8,
+                            "displayOrder": 49,
+                            "environment": "PRODUCTION",
+                            "externalId": "i4i.2xlarge",
+                            "externalStorageNetworkSpeed": 0,
+                            "freeTierHours": 0,
+                            "groupDefault": true,
+                            "id": 64,
+                            "instanceCostHourly": "0.686",
+                            "licenseCostOnDemandPerHour": "0.68493",
+                            "localDiskCount": 1,
+                            "memory": 65536,
+                            "networkSpeed": 12288,
+                            "subscriptionCostHourly": "1.3825",
+                            "totalStorage": 1875
+                        },
+                        "instanceId": 64,
+                        "privateIp": "172.31.0.69",
+                        "publicIp": "54.185.181.164",
+                        "region": {
+                            "backupStorageGBCost": "0.023",
+                            "cloudProviderId": 1,
+                            "continent": "America",
+                            "dcName": "AWS_US_WEST_2",
+                            "externalId": "us-west-2",
+                            "fullName": "US West (Oregon)",
+                            "id": 3,
+                            "name": "us-west-2",
+                            "trafficCrossRegionOutGBCost": "0.02",
+                            "trafficInternetOutGBCost": "0.09",
+                            "trafficSameRegionInGBCost": "0.01",
+                            "trafficSameRegionOutGBCost": "0.01"
+                        },
+                        "regionId": 3,
+                        "serviceId": 1,
+                        "serviceVersionId": 108,
+                        "state": "NORMAL",
+                        "status": "ACTIVE"
+                    }
+                ],
+                "pricingModel": 3,
+                "promProxyEnabled": false,
+                "provisioning": "dedicated-vm",
+                "region": {
+                    "backupStorageGBCost": "0.023",
+                    "cloudProviderId": 1,
+                    "continent": "America",
+                    "dcName": "AWS_US_WEST_2",
+                    "externalId": "us-west-2",
+                    "fullName": "US West (Oregon)",
+                    "id": 3,
+                    "name": "us-west-2",
+                    "trafficCrossRegionOutGBCost": "0.02",
+                    "trafficInternetOutGBCost": "0.09",
+                    "trafficSameRegionInGBCost": "0.01",
+                    "trafficSameRegionOutGBCost": "0.01"
+                },
+                "regionId": 3,
+                "replicationFactor": 3,
+                "scyllaVersion": {
+                    "description": "Scylla Enterprise 2022.2.0",
+                    "newCluster": "DISABLED",
+                    "version": "2022.2.0",
+                    "versionId": 108
+                },
+                "scyllaVersionId": 108,
+                "serverless": false,
+                "status": "ACTIVE",
+                "userApiInterface": "CQL",
+                "vpcList": [
+                    {
+                        "cidrBlock": "172.31.0.0/16",
+                        "cloudProviderId": 1,
+                        "clusterID": 14164,
+                        "id": 14963,
+                        "regionId": 3
+                    }
+                ]
+            }
+        }
+    }
+}

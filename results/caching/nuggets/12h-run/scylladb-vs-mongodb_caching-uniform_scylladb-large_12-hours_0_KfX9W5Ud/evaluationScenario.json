@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "scylladb-vs-mongodb",
+    "batchId": "caching-uniform",
+    "configurationId": "scylladb-large-caching-12h",
+    "configurationLabel": "scylladb-large-caching-12h",
+    "executions": 1,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "SCYLLADB",
+    "api": "SCYLLADB"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "SCYLLADB",
+    "operationType": "DBAAS",
+    "version": "5.1.3",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 17870.4
+      },
+      "scylladbinstance": {
+        "cloudProvider": "AWS",
+        "region": "us-west-2",
+        "numberOfNodes": 12,
+        "replicationFactor": 3,
+        "instanceFlavor": "i4i.8xlarge",
+        "scyllaVersion": "2022.2.0",
+        "password": "6pdPV1kaRuAv0eL",
+        "clientConfiguration": {
+          "writeConsistency": "QUORUM",
+          "readConsistency": "QUORUM"
+        }
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 16,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "us-west-2",
+          "instanceType": "c5.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "20.04",
+          "volumeType": "GP2",
+          "volumeSize": 50,
+          "iops": 100
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "caching",
+    "distribution": "YCSB",
+    "version": "benchant-master",
+    "ycsb": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadType": "LOAD",
+        "workloadClass": "site.ycsb.workloads.CoreWorkload",
+        "maxExecutionTime": 43200,
+        "threadCount": 1600,
+        "recordCount": 10000000000,
+        "insertStart": 0,
+        "insertCount": 0,
+        "operations": 0,
+        "targetOps": 500000,
+        "fieldCount": 10,
+        "fieldLength": 100,
+        "readAllFileds": true,
+        "readModifyWriteProportion": 0,
+        "requestdistribution": "UNIFORM",
+        "scanLengthDistribution": "UNIFORM",
+        "insertOrder": "ORDERED",
+        "readProportion": 0.5,
+        "updateProportion": 0.5,
+        "insertProportion": 0.0,
+        "scanProportion": 0.0,
+        "maxScanLength": 1000,
+        "coreWorkloadInsertionRetryLimit": 0,
+        "coreWorkloadInsertionRetryInterval": 0,
+        "loadBatchSize": 1,
+        "runBatchSize": 1,
+        "measurementType": "HDRHISTOGRAM"
+      }
+    }
+  }
+}

@@ -39,12 +39,7 @@
             "w": "majority",
             "j": true
           },
-          "readPreference": "secondaryPreferred",
-          "tsbsDocumentPerEvent": false,
-          "tsbsTimeseriesCollection": false,
-          "tsbsOrderedInserts": true,
-          "tsbsRandomFieldOrder": true,
-          "tsbsRetryableWrites": true
+          "readPreference": "secondaryPreferred"
         }
       }
     }
